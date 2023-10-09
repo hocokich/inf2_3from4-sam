@@ -1,0 +1,24 @@
+﻿<Window x:Class="inf2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inf2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="40" Margin="310,158,0,0" VerticalAlignment="Top" Width="40" Click="plus_Click"/>
+        <TextBox x:Name="A" HorizontalAlignment="Left" Height="25" Margin="189,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100
+                 " TextChanged="A_TextChanged"/>
+        <TextBox x:Name="B" HorizontalAlignment="Left" Height="25" Margin="505,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="B_TextChanged"/>
+        <TextBox x:Name="result" HorizontalAlignment="Left" Height="25" Margin="337,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="result_TextChanged"/>
+        <Label Content="Первое число:" HorizontalAlignment="Left" Height="25" Margin="71,99,0,0" VerticalAlignment="Top" Width="113"/>
+        <Label Content="Второе число:" HorizontalAlignment="Left" Height="25" Margin="387,99,0,0" VerticalAlignment="Top" Width="113"/>
+        <Label Content="Результат операции:" HorizontalAlignment="Left" Height="34" Margin="206,252,0,0" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Математические операции над бинарными числами" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Width="312"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="40" Margin="355,158,0,0" VerticalAlignment="Top" Width="40" Click="minus_Click"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="40" Margin="445,158,0,0" VerticalAlignment="Top" Width="40" Click="division_Click"/>
+        <Button x:Name="multi" Content="*" HorizontalAlignment="Left" Height="40" Margin="400,158,0,0" VerticalAlignment="Top" Width="40" Click="multi_Click"/>
+
+    </Grid>
+</Window>
